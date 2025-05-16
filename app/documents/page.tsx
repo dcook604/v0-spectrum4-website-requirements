@@ -1,0 +1,10 @@
+import { DocumentList } from "@/components/documents/document-list"
+
+export default function DocumentsPage() {
+  return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1 className="text-3xl font-bold mb-6">Documents</h1>
+      <DocumentList />
+    </div>
+  )
+}
